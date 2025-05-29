@@ -8,5 +8,6 @@ public class UsoDeChar {
         System.out.println("letra 1: " + letra1);
         System.out.println("letra 3: " + letra3);
         System.out.println("Todas juntas: " + letra1 + letra2 + letra3 + letra4);
+        System.out.println(letra1 +""+ letra2 +""+ letra3);
     }
 }
