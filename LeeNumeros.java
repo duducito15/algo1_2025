@@ -7,8 +7,8 @@ public class LeeNumeros {
         //
         linea= System.console().readLine();
         //
-        int numero1;
-        numero1 = Integer.parseInt(linea);
+        double numero1;
+        numero1 = Double.parseDouble(linea);
 
         System.out.println("Ingresa otro número: ");
         linea= System.console().readLine();
