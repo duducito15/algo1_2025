@@ -8,7 +8,9 @@ public class ComparacionCadena {
          *  instrucciones si la condicion es falsa
          * }
          */
-        String miFruta = "naranja";
+        String miFruta;
+        System.out.println("Ingrese la fruta de su preferencia: ");
+        miFruta = System.console().readLine();
 
         if ("manzana".equals(miFruta)) {
             System.out.println("iguales");
