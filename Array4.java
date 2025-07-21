@@ -12,14 +12,14 @@ public class Array4 {
 
         System.out.print("¿Cuántas franjas quiere para la bandera?: ");
         int franjas = Integer.parseInt(s.nextLine());
-        String reset = "\u001B[0m";
+        final String RESET = "\u001B[0m";
 
         for (int i = 0; i < franjas; i++) {
             int aleatorio = (int) (Math.random() * 5);
             String color = colorName[aleatorio];
             String code = colorCode[aleatorio];
 
-            System.out.println(code + "   " + reset + " " + color);
+            System.out.println(code + "          " + RESET + " " + color);
         }
     }
 }
