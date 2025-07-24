@@ -21,5 +21,6 @@ public class Array4 {
 
             System.out.println(code + "          " + RESET + " " + color);
         }
+        s.close();
     }
 }
