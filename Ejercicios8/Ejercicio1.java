@@ -24,7 +24,6 @@ public class Ejercicio1 {
             for (c = 0; c < 6; c++) {
                 System.out.printf("%9d    ",num[f][c]);
             }
-
         }
 
     }
