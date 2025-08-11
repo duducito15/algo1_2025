@@ -1,7 +1,7 @@
 public class Funcion1 {
     public static void main(String[] args) {
 
-        System.out.print("Introduce un número entero positivo");
+        System.out.print("Introduce un número entero positivo: ");
         int n = Integer.parseInt(System.console().readLine());
 
         if (esPrimo(n)) {
